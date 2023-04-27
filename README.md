@@ -19,6 +19,6 @@ Anleitung:
         Die Klasse sollte einen Konstruktor haben, der eine Liste von "Post"-Objekten und eine Mindestanzahl von Likes als Parameter annimmt.
         Die Klasse sollte die Methoden "hasNext()" und "next()" implementieren.
         Die Methode "hasNext()" sollte "true" zurückgeben, wenn es weitere Beiträge mit der angegebenen Mindestanzahl von Likes in der Liste gibt, und "false" sonst.
-        Die Methode "next()" sollte den nächsten Beitrag mit der angegebenen Mindestanzahl von Likes in der Liste zurückgeben oder eine "NoSuchElementException" auslösen, wenn es keine weiteren Elemente gibt.
+        Die Methode "next()" sollte den nächsten Beitrag mit der angegebenen Mindestanzahl von Likes in der Liste zurückgeben
 
     Erstelle in der "main"-Methode eine Liste von Beispiel-Post-Objekten mit verschiedenen Benutzernamen, Nachrichten und Likes. Erstelle dann eine Instanz der "FilteredPosts"-Klasse mit der Liste von Beiträgen und einer angegebenen Mindestanzahl von Likes. Durchlaufe die gefilterten Beiträge mit einer for-each-Schleife und gib die Beiträge aus, die den Kriterien entsprechen.
