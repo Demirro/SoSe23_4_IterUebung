@@ -5,12 +5,10 @@ Beschreibung:
 Du hast eine Liste von Social-Media-Beiträgen als Objekte erhalten. Jedes Post-Objekt enthält einen Benutzernamen, eine Nachricht und die Anzahl der Likes, die es erhalten hat. Deine Aufgabe besteht darin, eine benutzerdefinierte iterable-Klasse namens "FilteredPosts" zu erstellen, die die Liste der Beiträge basierend auf bestimmten Kriterien filtert und durchläuft.
 
 Anleitung:
-
     Erstelle eine Klasse namens "Post" mit den folgenden Eigenschaften:
         String "username"
         String "message"
         int "likes"
-
     Implementiere die Klasse "FilteredPosts", die das "Iterable<Post>"-Interface implementiert.
         Die Klasse sollte einen Konstruktor haben, der eine Liste von "Post"-Objekten und eine Mindestanzahl von Likes als Parameter annimmt.
         Die Klasse sollte die "iterator()" Methode implementieren, die eine Instanz eines benutzerdefinierten Iterators zurückgibt.
